@@ -1,0 +1,71 @@
+
+Total number of goals in all games from winning teams:
+71
+
+Total number of goals in all games from both teams combined:
+97
+
+Average number of goals in all games from the winning teams:
+2.2187500000000000
+
+Average number of goals in all games from the winning teams rounded to two decimal places:
+2.22
+
+Average number of goals in all games from both teams:
+3.0312500000000000
+
+Most goals scored in a single game:
+7
+
+Number of games where the winning team scored more than two goals:
+8
+
+Winner of the 2018 tournament team name:
+France
+
+List of teams who played in the 2014 'Eight-final' round:
+Argentina
+Belgium
+Brazil
+Colombia
+Croatia
+Denmark
+England
+France
+Japan
+Mexico
+Portugal
+Russia
+Spain
+Sweden
+Switzerland
+Uruguay
+
+List of unique winning team names in the whole data set:
+Argentina
+Belgium
+Brazil
+Colombia
+Costa Rica
+Croatia
+Denmark
+England
+France
+Germany
+Japan
+Mexico
+Netherlands
+Portugal
+Russia
+Spain
+Sweden
+Switzerland
+Uruguay
+
+Year and team name of all the champions:
+2014|Germany
+2018|France
+
+List of teams that start with 'Co':
+Colombia
+Costa Rica
