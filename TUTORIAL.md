@@ -30,7 +30,7 @@ Complete the tasks below
 - Your `games` table should have a `game_id` column as its primary key, a `year` column of type `INT`, and a `round` column of type `VARCHAR`
 - Your `games` table should have `winner_id` and `opponenent_id` foreign key columns that each reference `team_id` from the `teams` table
 - Your `games` table should have `winner_goals` and `opponent_goals` columns that are type `INT`
-- None of your columns should accept null values
+- All of your columns should have the `NOT NULL` constraint
 - Your two script (`.sh`) files should have executable permissions
 - When I run your `insert_data.sh` script, it should add each team to the `teams` table without duplicates
 - When I run your `insert_data.sh` script, it should insert a row for each line in the `games.csv` file (other than the top line of the file). Each row should have every column filled in with the appropriate info.
