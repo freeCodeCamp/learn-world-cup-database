@@ -18,7 +18,7 @@
       ]
     },
     "testRunner": {
-      "command": "npm run programmatic-test --timeout 10000",
+      "command": "npm run programmatic-test",
       "args": {
         "filter": "--grep",
         "tap": "--reporter=mocha-tap-reporter"
