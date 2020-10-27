@@ -24,12 +24,10 @@ Complete the tasks below
 
 #### SUBTASKS
 
-- You should not modify the `games.csv` file
 - You should create a database named `worldcup`
 - You should connect to your database and then create `teams` and `games` tables
 - Your `teams` table should have a `team_id` column as its primary key and a `name` column that has to be `UNIQUE`
 - Your `games` table should have a `game_id` column as its primary key, a `year` column of type `INT`, and a `round` column of type `VARCHAR`
-- Your `games` table should have a `round_id` foreign key column that references `round_id` from the `rounds` table
 - Your `games` table should have `winner_id` and `opponenent_id` foreign key columns that each reference `team_id` from the `teams` table
 - Your `games` table should have `winner_goals` and `opponent_goals` columns that are type `INT`
 - None of your columns should accept null values
