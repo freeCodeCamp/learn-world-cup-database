@@ -8,7 +8,7 @@ config:
       - sudo service postgresql start
       - sudo -u postgres psql -c "CREATE USER freecodecamp WITH CREATEDB;"
   testRunner:
-    command: npm run programmatic-test --exit
+    command: npm run programmatic-test --timeout 10000
     args:
       filter: --grep
       tap: --reporter=mocha-tap-reporter
