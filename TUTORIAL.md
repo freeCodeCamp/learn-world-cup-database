@@ -33,7 +33,6 @@ Complete the tasks below
 - None of your columns should accept null values
 - Your two script (`.sh`) files should have executable permissions
 - When I run your `insert_data.sh` script, it should add each team to the `teams` table without duplicates
-- When I run your `insert_data.sh` script, it should add each round to the `rounds` table without duplicates
 - When I run your `insert_data.sh` script, it should insert a row for each line in the `games.csv` file (other than the top line of the file). Each row should have every column filled in with the appropriate info.
 - You should complete the queries in the `queries.sh` file. I have completed the first one for you
 - When I run your `queries.sh` file, the output should match what is in the `example_output.txt` file
