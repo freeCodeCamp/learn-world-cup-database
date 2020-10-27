@@ -14,11 +14,11 @@
         "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\""
       ],
       "commits": [
-        "386695e825a8c86e7157fda3178ff278fe663221"
+        "6bad4be8155b62eb791b7193f03ec96b7c2d4c4e"
       ]
     },
     "testRunner": {
-      "command": "npm run programmatic-test --exit",
+      "command": "npm run programmatic-test --timeout 10000",
       "args": {
         "filter": "--grep",
         "tap": "--reporter=mocha-tap-reporter"
@@ -56,14 +56,13 @@
             "None of your columns should accept null values",
             "Your two script (`.sh`) files should have executable permissions",
             "When I run your `insert_data.sh` script, it should add each team to the `teams` table without duplicates",
-            "When I run your `insert_data.sh` script, it should add each round to the `rounds` table without duplicates",
             "When I run your `insert_data.sh` script, it should insert a row for each line in the `games.csv` file (other than the top line of the file). Each row should have every column filled in with the appropriate info.",
             "You should complete the queries in the `queries.sh` file. I have completed the first one for you",
             "When I run your `queries.sh` file, the output should match what is in the `example_output.txt` file"
           ],
           "setup": {
             "commits": [
-              "6f9489b1ff597088b4e0525bc149c12c17fa51a1"
+              "eb57dd2bd13bcd5f87e4617437da00c60c187701"
             ]
           }
         }
