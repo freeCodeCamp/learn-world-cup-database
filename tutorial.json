@@ -14,7 +14,7 @@
         "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\""
       ],
       "commits": [
-        "76983e847501daf177de5322e939b9c92e8038f4"
+        "386695e825a8c86e7157fda3178ff278fe663221"
       ]
     },
     "testRunner": {
@@ -47,12 +47,10 @@
           "id": "1.1",
           "content": "Complete the tasks below",
           "subtasks": [
-            "You should not modify the `games.csv` file",
             "You should create a database named `worldcup`",
             "You should connect to your database and then create `teams` and `games` tables",
             "Your `teams` table should have a `team_id` column as its primary key and a `name` column that has to be `UNIQUE`",
             "Your `games` table should have a `game_id` column as its primary key, a `year` column of type `INT`, and a `round` column of type `VARCHAR`",
-            "Your `games` table should have a `round_id` foreign key column that references `round_id` from the `rounds` table",
             "Your `games` table should have `winner_id` and `opponenent_id` foreign key columns that each reference `team_id` from the `teams` table",
             "Your `games` table should have `winner_goals` and `opponent_goals` columns that are type `INT`",
             "None of your columns should accept null values",
@@ -65,7 +63,7 @@
           ],
           "setup": {
             "commits": [
-              "0074e81867904466a41d91c8820cb0a3c581b170"
+              "6f9489b1ff597088b4e0525bc149c12c17fa51a1"
             ]
           }
         }
