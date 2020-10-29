@@ -1,4 +1,4 @@
-version: '0.1.0'
+version: '0.1.1'
 config:
   setup:
     commands:
@@ -7,6 +7,7 @@ config:
       - sudo cp ~/project/.freeCodeCamp/pg_hba.conf /etc/postgresql/12/main/pg_hba.conf
       - sudo service postgresql start
       - sudo -u postgres psql -c "CREATE USER freecodecamp WITH CREATEDB;"
+      - sudo psql -U postgres < ~/project/.freeCodeCamp/worldcuptest.sql
   testRunner:
     command: npm run programmatic-test
     args:
@@ -15,7 +16,7 @@ config:
     directory: .freeCodeCamp
   repo:
     uri: https://github.com/moT01/.world-cup-database
-    branch: v0.1.0
+    branch: v0.1.1
   dependencies:
     - name: node
       version: '>=10'
