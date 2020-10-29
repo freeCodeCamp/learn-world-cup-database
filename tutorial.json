@@ -11,8 +11,8 @@
         "cd .freeCodeCamp && npm install",
         "sudo cp ~/project/.freeCodeCamp/pg_hba.conf /etc/postgresql/12/main/pg_hba.conf",
         "sudo service postgresql start",
-        "psql -U postgres < ~/project/.freeCodeCamp/worldcuptest.sql",
-        "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\""
+        "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\"",
+        "sudo -u postgres psql < ~/project/.freeCodeCamp/worldcuptest.sql"
       ],
       "commits": [
         "89d47f8eb8f654c55ec7d7b3dfeff2f7af401a47"
