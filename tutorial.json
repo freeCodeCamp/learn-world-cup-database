@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": {
     "title": "World Cup Database",
     "description": "> Welcome to the World Cup Database project!"
@@ -11,10 +11,11 @@
         "cd .freeCodeCamp && npm install",
         "sudo cp ~/project/.freeCodeCamp/pg_hba.conf /etc/postgresql/12/main/pg_hba.conf",
         "sudo service postgresql start",
-        "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\""
+        "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\"",
+        "sudo psql -U postgres < ~/project/.freeCodeCamp/worldcuptest.sql"
       ],
       "commits": [
-        "a3d04afe92f491e1b5e9c19e79e36148b4b8f069"
+        "87792ad8aa51ac36c8532a94c8e578642351d3bc"
       ]
     },
     "testRunner": {
@@ -27,7 +28,7 @@
     },
     "repo": {
       "uri": "https://github.com/moT01/.world-cup-database",
-      "branch": "v0.1.0"
+      "branch": "v0.1.1"
     },
     "dependencies": [
       {
@@ -62,7 +63,7 @@
           ],
           "setup": {
             "commits": [
-              "93e9db3e123b1df839a789282091ef4edc1e296c"
+              "6da15494898c7c7063cd96eb3bf6f132247e360b"
             ]
           }
         }
