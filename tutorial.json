@@ -12,7 +12,7 @@
         "sudo cp ~/project/.freeCodeCamp/pg_hba.conf /etc/postgresql/12/main/pg_hba.conf",
         "sudo service postgresql start",
         "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\"",
-        "sudo psql -U postgres < ~/project/.freeCodeCamp/worldcuptest.sql"
+        "sudo -u postgres psql < ~/project/.freeCodeCamp/worldcuptest.sql"
       ],
       "commits": [
         "87792ad8aa51ac36c8532a94c8e578642351d3bc"
