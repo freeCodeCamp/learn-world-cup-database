@@ -15,7 +15,7 @@
         "sudo -u postgres psql < ~/project/.freeCodeCamp/worldcuptest.sql"
       ],
       "commits": [
-        "87792ad8aa51ac36c8532a94c8e578642351d3bc"
+        "89d47f8eb8f654c55ec7d7b3dfeff2f7af401a47"
       ]
     },
     "testRunner": {
@@ -63,7 +63,7 @@
           ],
           "setup": {
             "commits": [
-              "6da15494898c7c7063cd96eb3bf6f132247e360b"
+              "8a096c265768337f1d6472b6a3883e8b3609f01e"
             ]
           }
         }
