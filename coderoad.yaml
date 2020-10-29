@@ -4,6 +4,7 @@ config:
     commands:
       - sudo service postgresql stop
       - cd .freeCodeCamp && npm install
+      - sudo chmod -w ~/project/games.csv
       - sudo cp ~/project/.freeCodeCamp/pg_hba.conf /etc/postgresql/12/main/pg_hba.conf
       - sudo service postgresql start
       - sudo -u postgres psql < ~/project/.freeCodeCamp/worldcuptest.sql
