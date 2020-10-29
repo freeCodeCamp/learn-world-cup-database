@@ -15,7 +15,7 @@
         "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\""
       ],
       "commits": [
-        "8e494941652168ff1d48bce8dc1cf884cae20ade"
+        "fd69d24298552b7967c009c49f6a5984bd961f4f"
       ]
     },
     "testRunner": {
@@ -58,12 +58,12 @@
             "Your two script (`.sh`) files should have executable permissions. Other tests involving these two files will fail until permissions are correct",
             "When I run your `insert_data.sh` script, it should add each team to the `teams` table without duplicates",
             "When I run your `insert_data.sh` script, it should insert a row for each line in the `games.csv` file (other than the top line of the file). Each row should have every column filled in with the appropriate info.",
-            "You should complete the queries in the `queries.sh` file. I have completed the first one for you",
-            "When I run your `queries.sh` file, the output should match what is in the `example_output.txt` file"
+            "You should correctly complete the queries in the `queries.sh` file. I have completed the first one for you. Fill in each empty `echo` command to get the output of what is suggested with the command above it. Only use a single line like I have demonstrated in the first query.",
+            "When I run your `queries.sh` file, the output should match what is in the `example_output.txt` file. Take note of the order of some of the results"
           ],
           "setup": {
             "commits": [
-              "2774c128e8ff57122e68866fbd33740e914e8985"
+              "f656742c0e91d2fd6fcc6e7ba135975dc1d6a7a4"
             ]
           }
         }
