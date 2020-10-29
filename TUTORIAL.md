@@ -12,7 +12,7 @@ You can log into the psql interactive terminal with `psql --username=freecodecam
 1. Complete the `insert_data.sh` script to correctly insert all the data from `games.csv` into the database.
 I have started the file for you. Do not modify any of the code I have started you with. Use the `PSQL` variable I defined to query your database. My tests will use first value of the variable, you will use the second. The test have a 10 second limit, so try to make your script efficient. The less you have to query the database, the faster it will be. Hint: you can empty out the data in your database by entering `TRUNCATE TABLE games, teams;` in the psql prompt before testing your script.
 
-1. Complete empty `echo` commands in the `queries.sh` file to produce output that matches the `example-output.txt` file. I have started the file and completed the first one for you. Use the `PSQL` variable I have defined to complete the queries.
+1. Complete empty `echo` commands in the `queries.sh` file to produce output that matches the `example-output.txt` file. I have started the file and completed the first one for you. Use the `PSQL` variable I have defined to complete the queries. Note that you need to have your database filled with the correct data from previous script in order to get the correct results from your queries.
 
 ### 1.1
 
