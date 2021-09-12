@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": {
     "title": "World Cup Database",
     "description": "> Welcome to the World Cup Database project!"
@@ -18,7 +18,7 @@
         "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\""
       ],
       "commits": [
-        "52f0ed84f7e8bcc3be974665613ba571df5ee603"
+        "2bd4ec4e8bc33545441ee382334c9c0ca7c18204"
       ]
     },
     "testRunner": {
@@ -31,7 +31,7 @@
     },
     "repo": {
       "uri": "https://github.com/freeCodeCamp/learn-world-cup-database",
-      "branch": "v1.0.0"
+      "branch": "v1.0.1"
     },
     "dependencies": [
       {
@@ -65,7 +65,7 @@
           ],
           "setup": {
             "commits": [
-              "4178f8a6829f754faa4de8f3c4e90d861ee4ab73"
+              "76d45ba9f98ce4fa02459c14751898605abaadff"
             ]
           }
         }
