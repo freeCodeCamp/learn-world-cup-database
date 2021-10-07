@@ -28,7 +28,7 @@ echo
 echo -e "\nWinner of the 2018 tournament team name:"
 echo
 
-echo -e "\nList of teams who played in the 2014 'Eight-final' round:"
+echo -e "\nList of teams who played in the 2014 'Eighth-Final' round:"
 echo
 
 echo -e "\nList of unique winning team names in the whole data set:"
