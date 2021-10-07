@@ -23,7 +23,7 @@ Number of games where the winning team scored more than two goals:
 Winner of the 2018 tournament team name:
 France
 
-List of teams who played in the 2014 'Eight-final' round:
+List of teams who played in the 2014 'Eighth-Final' round:
 Argentina
 Belgium
 Brazil
@@ -42,25 +42,17 @@ Switzerland
 Uruguay
 
 List of unique winning team names in the whole data set:
-Argentina
-Belgium
-Brazil
-Colombia
-Costa Rica
-Croatia
-Denmark
-England
-France
-Germany
-Japan
-Mexico
-Netherlands
-Portugal
-Russia
-Spain
-Sweden
-Switzerland
-Uruguay
+ Argentina
+ Belgium
+ Brazil
+ Croatia
+ England
+ France
+ Germany
+ Netherlands
+ Russia
+ Sweden
+ Uruguay
 
 Year and team name of all the champions:
 2014|Germany
