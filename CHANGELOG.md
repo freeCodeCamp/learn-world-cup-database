@@ -13,3 +13,7 @@ Whenever something on the version branch gets changed, add the new branch name a
 ## [v1.0.1]
 
 - Remove auto-save from VSCode settings
+
+## [v1.0.2]
+
+- Fix typos in `expected_output.txt` and `queries.sh`
