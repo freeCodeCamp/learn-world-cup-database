@@ -16,4 +16,5 @@ Whenever something on the version branch gets changed, add the new branch name a
 
 ## [v1.0.3]
 
-- Fix incorrect list of unique winning teams in answer
+- Fix incorrect list of unique winning teams in `expected_output.txt`
+- Fix typos in `expected_output.txt` and `queries.sh`
