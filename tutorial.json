@@ -18,7 +18,7 @@
         "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\""
       ],
       "commits": [
-        "89e7c5e348446315a9b55d5afac5a512494af747"
+        "d1ea94c8198640ee1610be92b782bc7545af71af"
       ]
     },
     "testRunner": {
@@ -65,7 +65,7 @@
           ],
           "setup": {
             "commits": [
-              "3f32842a3fc5de44ebeb0e140c388e1cb76f8563"
+              "4606498db34ee1ea9ed792db30471d1f94762a0e"
             ]
           }
         }
