@@ -19,3 +19,5 @@ Whenever something on the version branch gets changed, add the new branch name a
 - Fix incorrect list of unique winning teams in `expected_output.txt`
 - Fix typos in `expected_output.txt` and `queries.sh`
 - Clarify wording for number of goals scored in `expected_output.txt` and `queries.sh`
+- Fix 2014 Eighth-Final games were duplicated from 2018
+- Fix typo in `.freeCodeCamp/test/1.1.test.js`
