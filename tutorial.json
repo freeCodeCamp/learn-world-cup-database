@@ -30,7 +30,7 @@
       "directory": ".freeCodeCamp"
     },
     "repo": {
-      "uri": "https://github.com/iccowan/learn-world-cup-database",
+      "uri": "https://github.com/freeCodeCamp/learn-world-cup-database",
       "branch": "v1.0.3"
     },
     "dependencies": [
