@@ -14,14 +14,14 @@ Complete empty `echo` commands in the `queries.sh` file to produce output that m
 
 Be aware that you may lose your database if you leave your virtual machine. You can make a dump of it by entering `pg_dump --clean --create --inserts --username=freecodecamp worldcup > worldcup.sql` in a terminal (not the psql one). Make sure you are in the `project` folder when entering the command. It will save the commands to rebuild your database to `worldcup.sql`. Then, save the file somewhere. You can rebuild it by entering `psql -U postgres < worldcup.sql` in a terminal if you enter the command where the `.sql` file is.
 
-1.1
+### 1.1
 
 Complete the tasks below
 
-SUBTASKS
+#### SUBTASKS
 
 - Create a database named `WorldCup`
-- Connect to your WorldCup database and then create `teams` and `games` tables
+- **Connect to your worldcup** database and then create `teams` and `games` tables
 - Your `teams` table should have a `team_id` column as its primary key and a `name` column that has to be UNIQUE
 - Your `games` table should have a `game_id` column as its primary key, a `year` column of type `INT`, and a `round` column of type `VARCHAR`
 - Your `games` table should have `winner_id` and `opponent_id` foreign key columns that each reference `team_id` from the `teams` table
