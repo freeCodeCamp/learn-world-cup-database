@@ -4,15 +4,15 @@
 
 ## 1. Instructions
 
-You are started with several files. One of them is `games.csv`. It contains a comma-separated list of all games of the final three rounds of the World Cup tournement since 2014, the titles are at the top. It includes the year of each game, the round of the tournament the game was in, the winner, their opponenet, and the number of goals each team scored. You need to do three things for this project:
+You have started with several files. One of them is `games.csv`. It contains a comma-separated list of all games of the final three rounds of the World Cup tournament since 2014; the titles are at the top. It includes the year of each game, the round of the game's tournament, the winner, their opponent, and the number of goals each team scored. You need to do three things for this project:
 
-Create the database according to the user stories. Log into the psql interactive terminal with `psql --username=freecodecamp --dbname=postgres`. Create your database structure with the interactive terminal. **Don't forget to connect to the database after you create it.**
+Create the database according to the user stories. Log into the `psql interactive terminal with psql --username=freecodecamp --dbname=postgres`. Create your database structure with the interactive terminal. **Don't forget to connect to the database after you create it**.
 
 Complete the `insert_data.sh` script to correctly insert all the data from `games.csv` into the database. The file is started for you. Do not modify any of the code that's in there. Use the `PSQL` variable defined to query your database. You can make queries like this: `$($PSQL "<query_here>")`. The tests will use first value of the variable, you will use the second. The tests have a 20 second limit, so try to make your script efficient. The less you have to query the database, the faster it will be. You can empty out the data in your database with `TRUNCATE TABLE games, teams;`.
 
-Complete empty `echo` commands in the `queries.sh` file to produce output that matches the `example-output.txt` file. The file has some starter code and first query is completed for you. Use the `PSQL` variable defined to complete the queries. Note that you need to have your database filled with the correct data from the script in order to get the correct results from your queries. Hint: Test your queries in the psql prompt first and then add them to the script file.
+Complete empty `echo` commands in the `queries.sh` file to produce output that matches the `example-output.txt` file. The file has some starter code, and we completed the first query for you. Use the `PSQL` variable defined to complete the queries. Note that you need to have your database filled with the correct data from the script to get the correct results from your queries. Hint: Test your queries in the psql prompt first and then add them to the script file.
 
-If you leave your virtual machine, your database will not be saved. You can make a dump of it by entering `pg_dump --clean --create --inserts --username=freecodecamp worldcup > worldcup.sql` in a terminal (not the psql one). Make sure you are in the `project` folder when entering the command. It will save the commands to rebuild your database to `worldcup.sql`. Then, save the file somewhere. You can rebuild it by entering `psql -U postgres < worldcup.sql` in a terminal if you enter the command where the `.sql` file is.
+Be aware that you may lose your database if you leave your virtual machine. You can make a dump of it by entering `pg_dump --clean --create --inserts --username=freecodecamp worldcup > worldcup.sql` in a terminal (not the psql one). Make sure you are in the `project` folder when entering the command. It will save the commands to rebuild your database to `worldcup.sql`. Then, save the file somewhere. You can rebuild it by entering `psql -U postgres < worldcup.sql` in a terminal if you enter the command where the `.sql` file is.
 
 ### 1.1
 
@@ -20,9 +20,9 @@ Complete the tasks below
 
 #### SUBTASKS
 
-- You should create a database named `worldcup`
-- You should **connect to your worldcup** database and then create `teams` and `games` tables
-- Your `teams` table should have a `team_id` column as its primary key and a `name` column that has to be `UNIQUE`
+- Create a database named `WorldCup`
+- **Connect to your worldcup** database and then create `teams` and `games` tables
+- Your `teams` table should have a `team_id` column as its primary key and a `name` column that has to be UNIQUE
 - Your `games` table should have a `game_id` column as its primary key, a `year` column of type `INT`, and a `round` column of type `VARCHAR`
 - Your `games` table should have `winner_id` and `opponenent_id` foreign key columns that each reference `team_id` from the `teams` table
 - Your `games` table should have `winner_goals` and `opponent_goals` columns that are type `INT`
