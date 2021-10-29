@@ -6,7 +6,7 @@
 
 You have started with several files. One of them is `games.csv`. It contains a comma-separated list of all games of the final three rounds of the World Cup tournament since 2014; the titles are at the top. It includes the year of each game, the round of the game's tournament, the winner, their opponent, and the number of goals each team scored. You need to do three things for this project:
 
-Create the database according to the user stories. Log into the `psql interactive terminal with psql --username=freecodecamp --dbname=postgres`. Create your database structure with the interactive terminal. **Don't forget to connect to the database after you create it**.
+Create the database according to the user stories. Log into the `psql` interactive terminal with `psql --username=freecodecamp --dbname=postgres`. Create your database structure with the interactive terminal. **Don't forget to connect to the database after you create it**.
 
 Complete the `insert_data.sh` script to correctly insert all the data from `games.csv` into the database. The file has started for you. Do not modify any of the code that's in there. Use the `PSQL` variable defined to query your database. You can make queries like this: `$($PSQL "<query_here>")`. The tests will use the first value of the variable; you will use the second. The tests have a 10-second limit, so try to make your script efficient. The less you have to query the database, the faster it will be. You can empty the data in your database with `TRUNCATE TABLE games, teams;`.
 
