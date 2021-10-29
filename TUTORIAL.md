@@ -20,7 +20,7 @@ Complete the tasks below
 
 #### SUBTASKS
 
-- Create a database named `WorldCup`
+- Create a database named `worldcup`
 - **Connect to your worldcup** database and then create `teams` and `games` tables
 - Your `teams` table should have a `team_id` column as its primary key and a `name` column that has to be UNIQUE
 - Your `games` table should have a `game_id` column as its primary key, a `year` column of type `INT`, and a `round` column of type `VARCHAR`
