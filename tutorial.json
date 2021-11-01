@@ -16,6 +16,9 @@
         "sudo service postgresql start",
         "sudo -u postgres psql < ~/project/.freeCodeCamp/worldcuptest.sql",
         "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\""
+      ],
+      "commits": [
+        "2bd4ec4e8bc33545441ee382334c9c0ca7c18204"
       ]
     },
     "testRunner": {
@@ -61,7 +64,9 @@
             "You should correctly complete the queries in the `queries.sh` file. The first one is completed for you. Fill in each empty `echo` command to get the output of what is suggested with the command above it. Only use a single line, as I have demonstrated in the first query. The output should match what is in the `example_output.txt` file. Take note of the order of some of the results"
           ],
           "setup": {
-            "commits": []
+            "commits": [
+              "76d45ba9f98ce4fa02459c14751898605abaadff"
+            ]
           }
         }
       ]
