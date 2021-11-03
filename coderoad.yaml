@@ -1,4 +1,4 @@
-version: '1.0.3'
+version: '1.0.2'
 config:
   setup:
     commands:
@@ -18,8 +18,8 @@ config:
       tap: --reporter=mocha-tap-reporter
     directory: .freeCodeCamp
   repo:
-    uri: https://github.com/iccowan/learn-world-cup-database
-    branch: v1.0.3
+    uri: https://github.com/moT01/learn-world-cup-database
+    branch: v1.0.2
   dependencies:
     - name: node
       version: '>=10'
