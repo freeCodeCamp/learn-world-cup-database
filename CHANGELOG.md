@@ -24,3 +24,8 @@ Whenever something on the version branch gets changed, add the new branch name a
 - Simplify test #10
 - Added `getCommandOutput` to `utils.js` and used that instead of `getScriptOutput` in the `before()` of tests
 - Increased timeout to 20 seconds
+
+## [v1.0.3]
+
+- Move startup commands to `setup.sh`
+- Run `setup.sh` on continue and reset
