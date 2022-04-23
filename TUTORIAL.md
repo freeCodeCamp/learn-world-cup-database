@@ -37,7 +37,7 @@ Complete the tasks below
 - You should **connect to your worldcup database** and then create `teams` and `games` tables
 - Your `teams` table should have a `team_id` column as its primary key and a `name` column that has to be `UNIQUE`
 - Your `games` table should have a `game_id` column as its primary key, a `year` column of type `INT`, and a `round` column of type `VARCHAR`
-- Your `games` table should have `winner_id` and `opponenent_id` foreign key columns that each reference `team_id` from the `teams` table
+- Your `games` table should have `winner_id` and `opponent_id` foreign key columns that each reference `team_id` from the `teams` table
 - Your `games` table should have `winner_goals` and `opponent_goals` columns that are type `INT`
 - All of your columns should have the `NOT NULL` constraint
 - Your two script (`.sh`) files should have executable permissions. Other tests involving these two files will fail until permissions are correct. When these permissions are enabled, the tests will take significantly longer to run
