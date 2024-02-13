@@ -33,3 +33,7 @@ Whenever something on the version branch gets changed, add the new branch name a
 ## [v1.0.4]
 
 - Add `exit` flag to mocha config
+
+## [v2.0.0]
+
+- Add Gitpod config
