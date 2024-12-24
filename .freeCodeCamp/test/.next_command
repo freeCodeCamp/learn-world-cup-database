@@ -63,3 +63,5 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git remote -v
 pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+git branch checkout main
+git add .
