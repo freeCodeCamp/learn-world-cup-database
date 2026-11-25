@@ -1,6 +1,6 @@
 ## Contributing
 
-Please read the guidelines in the [contributing docs](https://contribute.freecodecamp.org/#/how-to-work-on-tutorials-that-use-coderoad) if you are instrested in contributing to the project.
+Please read the guidelines in the [contributing docs](https://contribute.freecodecamp.org/how-to-work-on-tutorials-that-use-coderoad/) if you are instrested in contributing to the project.
 
 # Change Log
 
